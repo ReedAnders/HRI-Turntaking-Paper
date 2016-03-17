@@ -6,15 +6,16 @@ How does varying a robot’s pause duration between words and turns affect a use
 
 ## Reading 
 
-*[Universals and cultural variation in turn-taking in conversation. (Stivers 2009)](http://pubman.mpdl.mpg.de/pubman/item/escidoc:66202/component/escidoc:68328/Stivers_2009_universals.pdf)
+* [Universals and cultural variation in turn-taking in conversation. (Stivers 2009)](http://pubman.mpdl.mpg.de/pubman/item/escidoc:66202/component/escidoc:68328/Stivers_2009_universals.pdf)
 
 ## Tasks
 
 
 ### Austin
-Practice with Python audio library
-Turn taking implementation
+* Practice with Python audio library
+* Turn taking implementation
 
 ### Reed
-Mio robot API 
-Literature review and motivation (For instance, find real world research on metrics/testing of determining time pauses are determine)
+* Mio robot API
+* Literature review and motivation 
+	* Find real world research on metrics/testing of determining time pauses are determined
