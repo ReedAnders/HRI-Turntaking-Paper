@@ -19,7 +19,7 @@ wait = True
 
 def callAudio(text):
 	if wait:
-		sleep(0.5)
+		sleep(0.75)
 
 	# tts.say(text)
 	print text
@@ -39,5 +39,5 @@ while True:
     		callAudio(convo_prompts[pointer])
     		pointer += 1
     	except IndexError:
-    		print "Experiment has ended."
+    		print "FINISHED: Experiment has ended."
     		break
