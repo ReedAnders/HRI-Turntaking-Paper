@@ -19,14 +19,13 @@ wait = True
 
 def callAudio(text):
 	if wait:
-		sleep(0.75)
+		sleep(0.5)
 
 	# tts.say(text)
 	print text
 
 while True:
     key = ord(getch())
-    # print key
 
     # Press escape (or arrow keys) to exit
     if key == 27:
