@@ -20,13 +20,13 @@ wait = True
 def callAudio(text):
 	if wait:
 		sleep(0.5)
-		
+
 	# tts.say(text)
 	print text
 
 while True:
     key = ord(getch())
-    print key
+    # print key
 
     # Press escape (or arrow keys) to exit
     if key == 27:
@@ -39,5 +39,5 @@ while True:
     		callAudio(convo_prompts[pointer])
     		pointer += 1
     	except IndexError:
-    		print "Audio ended, thanks."
+    		print "Experiment has ended."
     		break
