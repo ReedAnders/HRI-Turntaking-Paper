@@ -1,8 +1,8 @@
-# from naoqi import ALProxy
+from naoqi import ALProxy
 
 # Connect to NAO
-# # tts = ALProxy("ALTextToSpeech", "<IP of your robot>", 9559)
-# tts = ALProxy("ALTextToSpeech", "nao.local", 9559)
+# tts = ALProxy("ALTextToSpeech", "<IP of your robot>", 9559)
+tts = ALProxy("ALTextToSpeech", "192.168.0.101", 9559)
 
 
 # Run Script
@@ -29,8 +29,8 @@ def callAudio(text):
 	if wait:
 		sleep(0.75)
 
-	# tts.say(text)
-	print text
+	tts.say(text)
+	# print text
 
 while True:
     key = ord(getch())
