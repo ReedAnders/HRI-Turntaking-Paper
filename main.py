@@ -14,6 +14,8 @@ from time import sleep
 convo_prompts = ['Hi, my name is Nao', 'This is an audio test']
 pointer = 0
 
+tts.setParameter("pitchShift",0)
+
 ## Experiment Procedure
 
 # 1) Participant initiates conversation with Nao
