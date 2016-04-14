@@ -11,7 +11,7 @@ tts = ALProxy("ALTextToSpeech", "192.168.0.101", 9559)
 from getch import getch
 from time import sleep
 
-convo_prompts = ['Hi, my name is Nao', 'This is an audio test']
+convo_prompts = ['Hi, my name is Nao. Can I help you send a package?', 'Please place your package on the table in front of me. Then say, Here you go!', 'Hooray! First, what\'s the address you need the package sent to?','Great! What\'s your account number', 'Many thanks. The estimated time for delivery will be in two days. Is that acceptable?', 'The total cost will be $8 dollars even. Do you confirm I can charge this to your account?','Great, thank you! Do you have any other packages?','Alright, that settles it. Have a nice day!']
 pointer = 0
 
 tts.setParameter("pitchShift",0)
