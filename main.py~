@@ -22,7 +22,7 @@ tts.setParameter("pitchShift",0)
 # 		a) Experimenter should press play bar as if they themselves are responding
 # 3) If factor delay is on, set 'wait' variable to 'True'
 
-wait = False
+wait = True
 
 def callAudio(text):
 
